@@ -21,7 +21,7 @@ def title():
 
 def adj():
 	''' This function chooses a random adj for the band '''
-	renturn drandom.choice(adjs)
+	return random.choice(adjs)
 
 def plural_noun():
 	return random.choice(plural_nouns)
